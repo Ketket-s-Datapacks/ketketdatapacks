@@ -1,4 +1,4 @@
-execute store result score #daycount daycounter_k run time query day
+execute store result score #daycount daycounter_k run time query day repetition
 
 #display
 execute as @e[type=player,tag=coordinatesondisplay] at @s run function ketket_navigator:coordinatesondisplay

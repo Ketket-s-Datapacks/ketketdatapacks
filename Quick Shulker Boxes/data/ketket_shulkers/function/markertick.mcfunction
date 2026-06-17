@@ -1,4 +1,4 @@
-$execute unless entity @p[scores={ket.ID=$(x)},tag=ket.holder,distance=..10] run function ketket_shulkers:remove with entity @s data
+$execute unless entity @p[scores={ket.ID=$(x)},tag=ket.holder,distance=..20] run function ketket_shulkers:remove with entity @s data
 
 execute if entity @e[type=creeper,distance=..7] run function ketket_shulkers:remove with entity @s data
 execute if entity @e[type=tnt,distance=..7] run function ketket_shulkers:remove with entity @s data
