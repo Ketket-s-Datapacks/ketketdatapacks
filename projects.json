@@ -1,0 +1,94 @@
+{
+  "organization": "Ketket-s-Datapacks",
+  "organization_url": "https://github.com/Ketket-s-Datapacks",
+  "source_portal_repo": "ketketdatapacks",
+  "repository_name_pattern": "datapack-<slug>",
+  "migration_mode": "initial-import-no-history",
+  "shared_advancement_policy": "copy-inside-each-repository",
+  "projects": [
+    {
+      "name": "Better Cauldron",
+      "source_folder": "Better Cauldron",
+      "target_repository": "datapack-better-cauldrons",
+      "namespace": "ketket_bcauldron",
+      "modrinth_slug": "ketkets-better-cauldrons"
+    },
+    {
+      "name": "Better Hanging Signs",
+      "source_folder": "Better Hanging Signs",
+      "target_repository": "datapack-better-hanging-signs",
+      "namespace": "ketket_signs",
+      "modrinth_slug": "ketkets-better-hanging-signs"
+    },
+    {
+      "name": "Custom NPC",
+      "source_folder": "Custom NPC",
+      "target_repository": "datapack-mannequins",
+      "namespace": "ketket_npc",
+      "modrinth_slug": "ketkets-mannequins"
+    },
+    {
+      "name": "Displaycases",
+      "source_folder": "Displaycases",
+      "target_repository": "datapack-display-cases",
+      "namespace": "ketket_dc",
+      "modrinth_slug": "ketkets-displaycases"
+    },
+    {
+      "name": "EasyCoords",
+      "source_folder": "EasyCoords",
+      "target_repository": "datapack-easy-coords",
+      "namespace": "ketket_navigator",
+      "modrinth_slug": "ketkets-easycoords"
+    },
+    {
+      "name": "FurniCraft",
+      "source_folder": "FurniCraft",
+      "target_repository": "datapack-furnicraft",
+      "namespace": "ketket_furnitures",
+      "modrinth_slug": "ketkets-furnicraft"
+    },
+    {
+      "name": "Graves",
+      "source_folder": "Graves",
+      "target_repository": "datapack-graves",
+      "namespace": "grave_ketket",
+      "modrinth_slug": "ketkets-graves"
+    },
+    {
+      "name": "Player Shops",
+      "source_folder": "Player Shops",
+      "target_repository": "datapack-player-shops",
+      "namespace": "ketket_shops",
+      "modrinth_slug": "ketkets-player-shops"
+    },
+    {
+      "name": "Quick Shulker Boxes",
+      "source_folder": "Quick Shulker Boxes",
+      "target_repository": "datapack-quick-shulker-boxes",
+      "namespace": "ketket_shulkers",
+      "modrinth_slug": "ketkets-quick-shulker-boxes"
+    },
+    {
+      "name": "SilkFortune Switch",
+      "source_folder": "SilkFortune Switch",
+      "target_repository": "datapack-silk-fortune-switch",
+      "namespace": "sfswitch",
+      "modrinth_slug": "ketkets-silk-fortune-switch"
+    },
+    {
+      "name": "Stackraft",
+      "source_folder": "Stackraft",
+      "target_repository": "datapack-stackraft",
+      "namespace": "ketket_stackraft",
+      "modrinth_slug": "ketkets-stackraft"
+    },
+    {
+      "name": "TotemRefill",
+      "source_folder": "TotemRefill",
+      "target_repository": "datapack-totem-refill",
+      "namespace": "ketket_undyingrefill",
+      "modrinth_slug": "ketkets-totem-refill"
+    }
+  ]
+}

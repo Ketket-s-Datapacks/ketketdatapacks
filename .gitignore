@@ -1,0 +1,13 @@
+# Yerel yukleme/cikti klasoru (zipler, token, notlar)
+upload/
+
+# Yerel gizli/ozel dosyalar
+.env
+.env.*
+*.local
+
+# Yerel release ciktilari
+*.zip
+
+# Not ve taslak dosyalari
+*.notes.md
