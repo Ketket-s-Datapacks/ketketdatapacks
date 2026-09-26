@@ -1,1 +1,1 @@
-time query daytime
+time of minecraft:overworld query minecraft:day

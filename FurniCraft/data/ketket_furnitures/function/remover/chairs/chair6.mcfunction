@@ -1,6 +1,7 @@
 execute as @s[tag=dropitem,tag=!wooled,tag=acacia] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/acacia
 execute as @s[tag=dropitem,tag=!wooled,tag=bamboo] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/bamboo
 execute as @s[tag=dropitem,tag=!wooled,tag=birch] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/birch
+execute as @s[tag=dropitem,tag=!wooled,tag=poplar] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/poplar
 execute as @s[tag=dropitem,tag=!wooled,tag=cherry] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/cherry
 execute as @s[tag=dropitem,tag=!wooled,tag=crimson] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/crimson
 execute as @s[tag=dropitem,tag=!wooled,tag=darkoak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/darkoak
@@ -13,6 +14,7 @@ execute as @s[tag=dropitem,tag=!wooled,tag=warped] at @s run loot spawn ~ ~ ~ lo
 execute as @s[tag=dropitem,tag=wooled,tag=acacia] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/acacia
 execute as @s[tag=dropitem,tag=wooled,tag=bamboo] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/bamboo
 execute as @s[tag=dropitem,tag=wooled,tag=birch] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/birch
+execute as @s[tag=dropitem,tag=wooled,tag=poplar] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/poplar
 execute as @s[tag=dropitem,tag=wooled,tag=cherry] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/cherry
 execute as @s[tag=dropitem,tag=wooled,tag=crimson] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/crimson
 execute as @s[tag=dropitem,tag=wooled,tag=darkoak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/darkoak

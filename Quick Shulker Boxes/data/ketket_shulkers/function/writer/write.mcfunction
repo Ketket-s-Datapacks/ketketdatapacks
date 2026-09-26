@@ -1,5 +1,5 @@
 $data modify entity @e[type=chest_minecart,scores={ket.ID=$(x)},limit=1] CustomName set from entity @s SelectedItem.components."minecraft:custom_name"
-$data modify entity @e[type=block_display,scores={ket.ID=$(x)},limit=1] block_state.Name set from entity @s SelectedItem.id
+$data modify entity @e[type=block_display,scores={ket.ID=$(x)},limit=1] block_state set from entity @s SelectedItem.id
 
 scoreboard players set @s ket.for 26
 

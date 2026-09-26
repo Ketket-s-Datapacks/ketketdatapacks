@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "entity": "this",
+      "type": "minecraft:fill_player_head"
+    },
+    {
+      "tag": "{grave:1b,headholder:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

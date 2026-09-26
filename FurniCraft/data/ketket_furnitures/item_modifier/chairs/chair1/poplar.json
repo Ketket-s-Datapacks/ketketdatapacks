@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Poplar Stool",
+        "color": "yellow",
+        "bold": false,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -1006512882,
+            450910254,
+            -1191866872,
+            1122973650
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTQ0ZTU1YzYyMzRmODA2YTcwZDllYjMyMjlhMzhjY2Y0OTZmMDg0ZTBjYjMwNzNmZjdhZThhYjQ5NWMyNmI2In19fQ=="
+            }
+          ]
+        }
+      },
+      "type": "set_components"
+    },
+    {
+      "tag": "{furniture:1b,chair1:1b,poplar:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

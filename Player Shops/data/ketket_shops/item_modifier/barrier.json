@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Blocked",
+        "color": "dark_red",
+        "bold": true,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "tag": "{ketket_shop:1b}",
+      "type": "set_custom_data"
+    },
+    {
+      "lore": [
+        {
+          "text": "Before storing products, set up your shop.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "mode": "append",
+      "type": "set_lore"
+    }
+  ]
+}

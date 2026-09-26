@@ -5,6 +5,7 @@ tag @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] remove darkoa
 tag @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] remove acacia
 tag @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] remove bamboo
 tag @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] remove birch
+tag @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] remove poplar
 tag @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] remove cherry
 tag @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] remove crimson
 tag @e[type=interaction,limit=1,nbt={interaction:{}},sort=nearest] remove jungle

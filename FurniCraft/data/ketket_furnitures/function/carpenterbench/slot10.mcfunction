@@ -19,10 +19,15 @@ execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:spruce_wood"}] r
 execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:stripped_spruce_wood"}] run return run function ketket_furnitures:carpenterbench/menu/spruce
 
 execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:birch_planks"}] run return run function ketket_furnitures:carpenterbench/menu/birch
+execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:poplar_planks"}] run return run function ketket_furnitures:carpenterbench/menu/poplar
 execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:birch_log"}] run return run function ketket_furnitures:carpenterbench/menu/birch
+execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:poplar_log"}] run return run function ketket_furnitures:carpenterbench/menu/poplar
 execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:stripped_birch_log"}] run return run function ketket_furnitures:carpenterbench/menu/birch
+execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:stripped_poplar_log"}] run return run function ketket_furnitures:carpenterbench/menu/poplar
 execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:birch_wood"}] run return run function ketket_furnitures:carpenterbench/menu/birch
+execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:poplar_wood"}] run return run function ketket_furnitures:carpenterbench/menu/poplar
 execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:stripped_birch_wood"}] run return run function ketket_furnitures:carpenterbench/menu/birch
+execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:stripped_poplar_wood"}] run return run function ketket_furnitures:carpenterbench/menu/poplar
 
 execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:jungle_planks"}] run return run function ketket_furnitures:carpenterbench/menu/jungle
 execute as @s if data block ~ ~ ~ Items[{Slot:10b,id:"minecraft:jungle_log"}] run return run function ketket_furnitures:carpenterbench/menu/jungle

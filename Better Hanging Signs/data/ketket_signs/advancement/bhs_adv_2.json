@@ -1,18 +1,17 @@
 {
-    "display": {
-      "icon": {
-        "id": "minecraft:item_frame"
-      },
-      "title": "Mojang's Forgotten Feature",
-      "description": "Place item on a hanging sign.",
-      "background": "minecraft:textures/block/cherry_planks.png",
-      "announce_to_chat": true,
-      "hidden": false
+  "display": {
+    "icon": {
+      "id": "minecraft:item_frame"
     },
-    "parent": "ketket_signs:bhs_adv",
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:impossible"
-      }
+    "title": "Mojang's Forgotten Feature",
+    "description": "Place item on a hanging sign.",
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "ketket_signs:bhs_adv",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
     }
   }
+}

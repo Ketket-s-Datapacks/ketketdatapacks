@@ -15,9 +15,13 @@ execute if data entity @s SelectedItem{id:"minecraft:stripped_acacia_wood"} run 
 execute if data entity @s SelectedItem{id:"minecraft:stripped_acacia_log"} run return run function ketket_furnitures:interaction/changetype/acacia
 
 execute if data entity @s SelectedItem{id:"minecraft:birch_log"} run return run function ketket_furnitures:interaction/changetype/birch
+execute if data entity @s SelectedItem{id:"minecraft:poplar_log"} run return run function ketket_furnitures:interaction/changetype/poplar
 execute if data entity @s SelectedItem{id:"minecraft:birch_wood"} run return run function ketket_furnitures:interaction/changetype/birch
+execute if data entity @s SelectedItem{id:"minecraft:poplar_wood"} run return run function ketket_furnitures:interaction/changetype/poplar
 execute if data entity @s SelectedItem{id:"minecraft:stripped_birch_wood"} run return run function ketket_furnitures:interaction/changetype/birch
+execute if data entity @s SelectedItem{id:"minecraft:stripped_poplar_wood"} run return run function ketket_furnitures:interaction/changetype/poplar
 execute if data entity @s SelectedItem{id:"minecraft:stripped_birch_log"} run return run function ketket_furnitures:interaction/changetype/birch
+execute if data entity @s SelectedItem{id:"minecraft:stripped_poplar_log"} run return run function ketket_furnitures:interaction/changetype/poplar
 
 execute if data entity @s SelectedItem{id:"minecraft:spruce_log"} run return run function ketket_furnitures:interaction/changetype/spruce
 execute if data entity @s SelectedItem{id:"minecraft:spruce_wood"} run return run function ketket_furnitures:interaction/changetype/spruce

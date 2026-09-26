@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Jungle Table",
+        "color": "yellow",
+        "bold": false,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            1729723404,
+            -489141844,
+            -1974931860,
+            -363153660
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTRmMDBkYWI2M2E1YTVmYTk5NTRlM2ViN2EwYmM5MTEwMmUxYmRhNTIwMTUzMzUwZWVjMWZhZDUxYTJhM2ZmMCJ9fX0="
+            }
+          ]
+        }
+      },
+      "type": "set_components"
+    },
+    {
+      "tag": "{furniture:1b,table1:1b,jungle:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

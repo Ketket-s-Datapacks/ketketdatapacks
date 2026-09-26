@@ -7,33 +7,7 @@
         {
           "type": "item",
           "name": "minecraft:green_stained_glass_pane",
-          "functions": [
-            {
-              "function": "set_name",
-              "name": {
-                "text": "Infınıte Stock : Enabled",
-                "color": "green",
-                "bold": true,
-                "italic": false
-              },
-              "entity": "this"
-            },
-            {
-              "function": "set_lore",
-              "lore": [
-                {
-                  "text": "Shift Click to make this admin shops stock normal.",
-                  "color": "white",
-                  "italic": false
-                }
-              ],
-                "mode": "append"
-            },
-            {
-              "function": "set_custom_data",
-              "tag": "{ketket_shop:1b}"
-            }
-          ]
+          "modifier": "ketket_shops:infinite_stock_enabled"
         }
       ]
     }

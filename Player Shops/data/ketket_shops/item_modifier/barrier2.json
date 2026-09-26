@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Admin Shop",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "tag": "{ketket_shop:1b}",
+      "type": "set_custom_data"
+    },
+    {
+      "lore": [
+        {
+          "text": "This shop has an infinite stock of items.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "mode": "append",
+      "type": "set_lore"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Price",
+        "color": "gold",
+        "bold": true,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "lore": [
+        {
+          "text": "Your current product price.",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      "mode": "append",
+      "type": "set_lore"
+    },
+    {
+      "tag": "{ketket_shop:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

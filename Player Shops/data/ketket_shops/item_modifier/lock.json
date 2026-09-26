@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "score": {
+          "name": "@s",
+          "objective": "unique_shopid"
+        }
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "tag": "{Unbreakable:1b, ketket:1b, key:1,Enchantments:[{}]}",
+      "type": "set_custom_data"
+    }
+  ]
+}

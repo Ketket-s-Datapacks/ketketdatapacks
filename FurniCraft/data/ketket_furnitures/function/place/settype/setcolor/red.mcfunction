@@ -1,3 +1,3 @@
-execute positioned ~ ~0.5 ~ as @e[tag=justspawn,type=block_display,tag=carpet] run data modify entity @s block_state.Name set from storage colorholder color.black.carpet
-execute positioned ~ ~0.5 ~ as @e[tag=justspawn,type=block_display,tag=wool] run data modify entity @s block_state.Name set from storage colorholder color.black.wool
-execute positioned ~ ~0.5 ~ as @e[tag=justspawn,type=block_display,tag=candle] run data modify entity @s block_state.Name set from storage colorholder color.black.candle
+execute positioned ~ ~0.5 ~ as @e[tag=justspawn,type=block_display,tag=carpet] run function ketket_furnitures:internal/block_state/from_storage {storage:"colorholder",path:"color.black.carpet"}
+execute positioned ~ ~0.5 ~ as @e[tag=justspawn,type=block_display,tag=wool] run function ketket_furnitures:internal/block_state/from_storage {storage:"colorholder",path:"color.black.wool"}
+execute positioned ~ ~0.5 ~ as @e[tag=justspawn,type=block_display,tag=candle] run function ketket_furnitures:internal/block_state/from_storage {storage:"colorholder",path:"color.black.candle"}

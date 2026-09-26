@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Poplar Chair",
+        "color": "yellow",
+        "bold": false,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            -1120402672,
+            1760450839,
+            -1924432666,
+            -483362458
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWRmZDZhMjlmNTdjM2RjNGNmODU2MjU5YWQ4ZDA1MjMyMWY3NTZmN2RhODBjZjZkNDRhMTYxMTkwMmVjYWNmNSJ9fX0="
+            }
+          ]
+        }
+      },
+      "type": "set_components"
+    },
+    {
+      "tag": "{furniture:1b,chair2:1b,poplar:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

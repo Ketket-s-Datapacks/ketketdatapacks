@@ -1,7 +1,13 @@
 {
-    "pack": {
-		"min_format": [88,0],
-		"max_format": [107,1],
-        "description": "§6§lKetket's§e Silk/Fortune Switch§r\n§7Only work with +1.21"
-    }
+  "pack": {
+    "min_format": [
+      121,
+      0
+    ],
+    "max_format": [
+      121,
+      0
+    ],
+    "description": "§6§lKetket's§e Silk/Fortune Switch§r\n§7Minecraft Java 26.3"
+  }
 }

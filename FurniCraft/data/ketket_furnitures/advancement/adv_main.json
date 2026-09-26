@@ -15,7 +15,6 @@
     },
     "title": "FurniCraft",
     "description": "Advancements of the FurniCraft",
-    "background": "minecraft:textures/block/birch_planks.png",
     "announce_to_chat": false,
     "hidden": false
   },

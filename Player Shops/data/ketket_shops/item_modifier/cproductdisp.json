@@ -1,0 +1,40 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Product: ",
+        "color": "gold",
+        "bold": false,
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "product_count"
+            },
+            "color": "yellow",
+            "bold": true
+          }
+        ]
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "lore": [
+        {
+          "text": "Your current product.",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      "mode": "append",
+      "type": "set_lore"
+    },
+    {
+      "tag": "{ketket_shop:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

@@ -21,8 +21,8 @@ execute as @s[tag=rack] run particle block{block_state:"minecraft:oak_planks"} ~
 execute as @s[tag=rack1] run function ketket_furnitures:remover/racks/rack1
 
 execute as @s[tag=cabinet3] run particle block{block_state:"minecraft:oak_planks"} ~ ~0.2 ~ 0 0 0 1 25
-execute as @s[tag=cabinet1,tag=!break,type=block_display] positioned ~ ~ ~ run function ketket_furnitures:remover/cabinets/cabinet1
-execute as @s[tag=cabinet1,tag=!break] positioned ~ ~1 ~ run function ketket_furnitures:remover/cabinets/cabinet1
+# Both fridge entity types are in the base block; remove from the upper block.
+execute as @s[tag=cabinet1,tag=!break] at @s align y positioned ~ ~1 ~ run function ketket_furnitures:remover/cabinets/cabinet1
 execute as @s[tag=cabinet2,tag=!break] positioned ~ ~0.48 ~ run function ketket_furnitures:remover/cabinets/cabinet2
 execute as @s[tag=cabinet3,tag=!break] positioned ~ ~ ~ run function ketket_furnitures:remover/cabinets/cabinet3
 

@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Product",
+        "color": "gray",
+        "bold": true,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "lore": [
+        {
+          "text": "Place here your product.",
+          "color": "white",
+          "italic": false
+        }
+      ],
+      "mode": "append",
+      "type": "set_lore"
+    },
+    {
+      "tag": "{ketket_shop:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

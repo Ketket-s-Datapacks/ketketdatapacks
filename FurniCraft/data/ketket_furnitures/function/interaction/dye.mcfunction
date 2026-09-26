@@ -1,4 +1,4 @@
-execute as @e[type=interaction,tag=curtain,tag=closed,limit=1,sort=nearest,distance=..1] run data modify entity @e[type=block_display,sort=nearest,distance=..0.5,limit=1] block_state set value {Name:"minecraft:air"}
+execute as @e[type=interaction,tag=curtain,tag=closed,limit=1,sort=nearest,distance=..1] run data modify entity @e[type=block_display,sort=nearest,distance=..0.5,limit=1] block_state set value {id:"minecraft:air"}
 advancement grant @s only ketket_furnitures:adv_colors
 
 execute if data entity @s SelectedItem{id:"minecraft:black_dye"} run return run function ketket_furnitures:interaction/changedye/black

@@ -1,8 +1,8 @@
-summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",Count:1b},Tags:["mail","1"]}
-summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",Count:1b},Tags:["mail","2"]}
-summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",Count:1b},Tags:["mail","3"]}
-summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",Count:1b},Tags:["mail","4"]}
-summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",Count:1b},Tags:["mail","5"]}
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",count:1b},Tags:["mail","1"]}
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",count:1b},Tags:["mail","2"]}
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",count:1b},Tags:["mail","3"]}
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",count:1b},Tags:["mail","4"]}
+summon minecraft:item ~ ~1 ~ {Item:{id:"minecraft:paper",count:1b},Tags:["mail","5"]}
 
 data modify entity @e[tag=mail,tag=1,limit=1,sort=nearest] Item set from entity @e[type=item_display,tag=mailstorage,limit=1,sort=nearest] item.components."minecraft:custom_data".Storage[0]
 data modify entity @e[tag=mail,tag=2,limit=1,sort=nearest] Item set from entity @e[type=item_display,tag=mailstorage,limit=1,sort=nearest] item.components."minecraft:custom_data".Storage[1]

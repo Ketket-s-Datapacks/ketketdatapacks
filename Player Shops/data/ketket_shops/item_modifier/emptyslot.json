@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": ""
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "tag": "{ketket_shop:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

@@ -33,13 +33,13 @@ scoreboard players operation @s product_count += @s product_countholder
 scoreboard players operation @s product_countholder = @s product_count
 scoreboard players operation @s product_countholder %= @s math.division 
 
-execute unless score @s product_countholder matches 0 store result entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product.count byte 1 run scoreboard players get @s product_countholder
-execute if score @s product_countholder matches 0 if score @s product_count matches ..64 store result entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product.count byte 1 run scoreboard players get @s product_count
-execute if score @s product_countholder matches 0 if score @s product_count matches 64.. run data modify entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product.count set value 64b
+execute unless score @s product_countholder matches 0 store result entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.components."minecraft:custom_data".Product.count byte 1 run scoreboard players get @s product_countholder
+execute if score @s product_countholder matches 0 if score @s product_count matches ..64 store result entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.components."minecraft:custom_data".Product.count byte 1 run scoreboard players get @s product_count
+execute if score @s product_countholder matches 0 if score @s product_count matches 64.. run data modify entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.components."minecraft:custom_data".Product.count set value 64b
 
 scoreboard players set @s product_countholder 0
 
-data remove entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.tag.Product.Slot
+data remove entity @e[type=item_display,sort=nearest,limit=1,tag=shopdata] item.components."minecraft:custom_data".Product.Slot
 
 scoreboard players operation @s currentstock += @s product_count
 

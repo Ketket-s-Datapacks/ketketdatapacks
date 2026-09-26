@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Poplar Park Bench",
+        "color": "yellow",
+        "bold": false,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "components": {
+        "minecraft:profile": {
+          "id": [
+            2114186524,
+            1977112168,
+            -1678072881,
+            698695710
+          ],
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdmZDhiNWFlODA2MWY3Zjk4NjgyMDFmMWZmYWM0YjcxMTgwNDQ2NjIxYzRhZjEwNDk1ZWU0MzA1ZjM3ODJkOCJ9fX0="
+            }
+          ]
+        }
+      },
+      "type": "set_components"
+    },
+    {
+      "tag": "{furniture:1b,chair5:1b,poplar:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

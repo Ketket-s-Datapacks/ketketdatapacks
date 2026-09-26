@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Mannequin Spawn Egg"
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "tag": "{ket.npc:1}",
+      "type": "set_custom_data"
+    },
+    {
+      "components": {
+        "minecraft:entity_data": {
+          "id": "minecraft:cod",
+          "Silent": true,
+          "Invulnerable": true,
+          "NoAI": true,
+          "Tags": [
+            "ket.npc"
+          ],
+          "DeathLootTable": "minecraft:empty",
+          "DeathLootTableSeed": 0
+        }
+      },
+      "type": "set_components"
+    }
+  ]
+}

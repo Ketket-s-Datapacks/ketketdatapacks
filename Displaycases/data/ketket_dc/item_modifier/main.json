@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Display Case",
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "tag": "{ket.dc:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

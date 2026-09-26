@@ -15,7 +15,7 @@ execute as @s[tag=earnwithdraw] at @s run function ketket_shops:menu/modificatio
 execute if score @s currentstock matches 1.. run tag @s add emptying
 execute as @s[tag=emptying] at @s run function ketket_shops:menu/modification/emptystorage
 
-data modify entity @e[tag=priceimg,sort=nearest,limit=1,type=item_display] item.id set value "minecraft:air"
+data remove entity @e[tag=priceimg,sort=nearest,limit=1,type=item_display] item
 execute as @e[type=text_display,distance=..0.3] run data modify entity @s text set value {"text":" "}
 #execute as @e[distance=..1,tag=displaytext,sort=nearest] at @s run function ketket_shops:display/bookwrite
 

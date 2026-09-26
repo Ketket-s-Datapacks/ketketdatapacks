@@ -11,5 +11,5 @@ execute as @s[tag=curtain1] positioned ~ ~-1 ~ run scoreboard players set @e[typ
 execute as @s[tag=curtain1] positioned ~ ~-1 ~ run execute as @e[type=interaction,tag=curtain1,distance=..0.5,tag=!switched] at @s run function ketket_furnitures:interaction/curtain/switcher
 
 tag @s remove closed
-data modify entity @e[type=block_display,tag=closed,sort=nearest,distance=..0.5,limit=1] block_state set value {Name:"minecraft:air"}
-execute as @e[type=block_display,tag=halfclosed,sort=nearest,distance=..0.5] run data modify entity @s block_state set value {Name:"minecraft:air"}
+data modify entity @e[type=block_display,tag=closed,sort=nearest,distance=..0.5,limit=1] block_state set value {id:"minecraft:air"}
+execute as @e[type=block_display,tag=halfclosed,sort=nearest,distance=..0.5] run data modify entity @s block_state set value {id:"minecraft:air"}

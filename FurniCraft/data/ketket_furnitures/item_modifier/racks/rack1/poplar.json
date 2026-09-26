@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Poplar Wall Rack",
+        "color": "yellow",
+        "bold": false,
+        "italic": false
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "components": {
+        "minecraft:profile": {
+          "properties": [
+            {
+              "name": "textures",
+              "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDQ1ZGM3N2IwMWY3ODUwNTAwMGZhNzYyZWM2NjE2MDFiYjJiMjM4ZmU2OGY4MTY1MzA2YTk4MWFjZjRkM2MzYiJ9fX0="
+            }
+          ],
+          "id": [
+            -1458501055,
+            -612215565,
+            -1838889359,
+            1914723435
+          ]
+        }
+      },
+      "type": "set_components"
+    },
+    {
+      "tag": "{furniture:1b,rack1:1b,poplar:1b}",
+      "type": "set_custom_data"
+    }
+  ]
+}

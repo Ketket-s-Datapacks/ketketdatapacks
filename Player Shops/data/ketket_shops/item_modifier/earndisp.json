@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    {
+      "name": {
+        "text": "Total Earn: ",
+        "color": "gold",
+        "bold": false,
+        "italic": false,
+        "extra": [
+          {
+            "score": {
+              "name": "@s",
+              "objective": "totalearn"
+            },
+            "color": "yellow",
+            "bold": true
+          }
+        ]
+      },
+      "entity": "this",
+      "type": "set_name"
+    },
+    {
+      "tag": "{ketket_shop:1b}",
+      "type": "set_custom_data"
+    },
+    {
+      "lore": [
+        {
+          "text": "Shift + Click to collect.",
+          "color": "yellow",
+          "italic": false
+        }
+      ],
+      "entity": "this",
+      "mode": "append",
+      "type": "set_lore"
+    }
+  ]
+}

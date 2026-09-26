@@ -5,7 +5,6 @@
     },
     "title": "Local Carpenter",
     "description": "Craft Carpenter Bench.",
-    "background": "minecraft:textures/block/birch_planks.png",
     "announce_to_chat": true,
     "hidden": false
   },
@@ -14,8 +13,8 @@
     "craft_carpenter_bench": {
       "trigger": "minecraft:recipe_crafted",
       "conditions": {
-          "recipe_id": "ketket_furnitures:carpenter_bench"
-        }
+        "recipes": "minecraft:bench_craft"
       }
     }
+  }
 }
