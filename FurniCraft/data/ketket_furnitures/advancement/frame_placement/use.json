@@ -1,0 +1,17 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:match_tool",
+          "predicate": {
+            "items": "minecraft:item_frame",
+            "predicates": { "minecraft:custom_data": "{furniture:1b}" }
+          }
+        }
+      }
+    }
+  },
+  "rewards": { "function": "ketket_furnitures:place/frame/use" }
+}

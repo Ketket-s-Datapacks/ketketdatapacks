@@ -1,4 +1,7 @@
-execute if block ~ ~ ~ minecraft:player_head run scoreboard players set @e[type=player,scores={furniture.isPlaced=1..},sort=nearest,limit=1] furniture.isPlaced 0
+execute if data block ~ ~ ~ components."minecraft:custom_data"{furniture:1,carpenterbench:1} run return run function ketket_furnitures:legacy/place_bench
+execute unless data block ~ ~ ~ components."minecraft:custom_data"{furniture:1b} run return run kill @s
+scoreboard players set #legacy_placed fc.frame_place 1
+execute if data block ~ ~ ~ components."minecraft:custom_data"{chair6:1b,warped:1b} if data block ~ ~ ~ profile.properties[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWMxNGFhNDYyOWMzNjFkNGUxMzJiMzFkNGMyYzhjMmE4YjhmMzVkODNmNTU3ODdlNDAzNjNjZGJmYTJmYmQ2YyJ9fX0="}] run return run function ketket_furnitures:place/racks/rack1
 
 execute if data block ~ ~ ~ components."minecraft:custom_data"{chair1:1b} run return run function ketket_furnitures:place/chairs/chair1
 execute if data block ~ ~ ~ components."minecraft:custom_data"{chair2:1b} run return run function ketket_furnitures:place/chairs/chair2

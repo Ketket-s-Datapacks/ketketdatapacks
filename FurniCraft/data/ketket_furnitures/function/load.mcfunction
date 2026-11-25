@@ -1,6 +1,6 @@
 execute as @e[type=block_display,tag=furniture] run data modify entity @s view_range set value 0.7f
 
-tellraw @a ["","[",{"text":"FurniCraft v7.5","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"Modrinth","underlined":true,"color":"white",click_event:{"action":"open_url","url":"https://modrinth.com/datapack/ketkets-furnicraft"}}]
+tellraw @a ["","[",{"text":"FurniCraft v7.6","color":"gold"},"] ",{"text":"Datapack has been reloaded. Check if there is a new version available. ","color":"green"},{"text":"Modrinth","underlined":true,"color":"white",click_event:{"action":"open_url","url":"https://modrinth.com/datapack/ketkets-furnicraft"}}]
 
 #> scoreboards
 scoreboard objectives add Sneaking_ch minecraft.custom:minecraft.sneak_time
@@ -11,7 +11,11 @@ scoreboard objectives add mailstoragecounter dummy
 scoreboard objectives add fc.switcher dummy
 scoreboard objectives add fc.bench_triggered minecraft.custom:trigger_trapped_chest
 
-scoreboard objectives add furniture.isPlaced minecraft.used:player_head
+scoreboard objectives add fc.convert trigger
+scoreboard objectives add fc.frame_place dummy
+scoreboard players set #circle fc.frame_place 360000
+scoreboard players set #segment fc.frame_place 22500
+function ketket_furnitures:place/frame/quarantine
 
 scoreboard objectives add getcatalog trigger
 

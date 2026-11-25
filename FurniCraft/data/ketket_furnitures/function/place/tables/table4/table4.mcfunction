@@ -3,7 +3,7 @@ summon block_display ~ ~0.5 ~ {Tags: ["table","table4","furniture"],Passengers:[
 summon minecraft:interaction ~ ~0.5 ~ {Tags: ["table","table4","justspawn","furniture"],width:0.65,height:0.55}
 summon minecraft:interaction ~ ~0.5 ~ {Tags: ["blockchecker","table","table4","justspawn","furniture","main"],width:1.001,height:0.52}
 
-execute as @e[tag=justspawn,tag=table4,type=interaction,tag=main] at @s run function ketket_furnitures:place/tables/table4/connect
+execute as @e[tag=justspawn,tag=!fc.frame_existing,tag=table4,type=interaction,tag=main] at @s run function ketket_furnitures:place/tables/table4/connect
 
 function ketket_furnitures:place/settype/findtype
 

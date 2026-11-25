@@ -10,8 +10,9 @@ execute as @s[tag=dropitem,tag=mangrove] at @s run loot spawn ~ ~ ~ loot ketket_
 execute as @s[tag=dropitem,tag=oak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:racks/rack1/oak
 execute as @s[tag=dropitem,tag=spruce] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:racks/rack1/spruce
 execute as @s[tag=dropitem,tag=warped] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:racks/rack1/warped
+execute as @s[tag=dropitem,tag=pale] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:racks/rack1/pale
 
 playsound minecraft:block.wood.break ambient @a[distance=..10] ~ ~ ~ 3 0
 
 kill @e[distance=..0.6,tag=rack1,type=block_display]
-execute positioned ~ ~-0.5 ~ run kill @e[type=interaction,distance=..0.1,tag=chair1]
+execute positioned ~ ~-0.5 ~ run kill @e[type=interaction,distance=..0.1,tag=rack1]

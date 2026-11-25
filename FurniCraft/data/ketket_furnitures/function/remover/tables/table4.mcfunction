@@ -4,13 +4,14 @@ execute as @s[tag=dropitem,tag=birch] at @s run loot spawn ~ ~ ~ loot ketket_fur
 execute as @s[tag=dropitem,tag=poplar] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/poplar
 execute as @s[tag=dropitem,tag=cherry] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/cherry
 execute as @s[tag=dropitem,tag=crimson] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/crimson
-execute as @s[tag=dropitem,tag=dark_oak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/darkoak
+execute as @s[tag=dropitem,tag=dark_oak,tag=!darkoak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/darkoak
 execute as @s[tag=dropitem,tag=darkoak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/darkoak
 execute as @s[tag=dropitem,tag=jungle] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/jungle
 execute as @s[tag=dropitem,tag=mangrove] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/mangrove
 execute as @s[tag=dropitem,tag=oak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/oak
 execute as @s[tag=dropitem,tag=spruce] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/spruce
 execute as @s[tag=dropitem,tag=warped] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/warped
+execute as @s[tag=dropitem,tag=pale] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:tables/table4/pale
 
 function ketket_furnitures:place/tables/table4/disconnect
 

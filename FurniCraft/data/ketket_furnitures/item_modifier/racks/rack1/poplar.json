@@ -26,6 +26,13 @@
             -1838889359,
             1914723435
           ]
+        },
+        "minecraft:item_model": "minecraft:player_head",
+        "minecraft:entity_data": {
+          "id": "minecraft:item_frame",
+          "Tags": [
+            "fc.frame_pending"
+          ]
         }
       },
       "type": "set_components"

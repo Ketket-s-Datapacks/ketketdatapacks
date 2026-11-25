@@ -1,3 +1,4 @@
+execute if entity @s[tag=fc.frame_context] run return run function ketket_furnitures:place/frame/material
 execute at @s run function ketket_furnitures:place/settype/checktype
 
 execute as @e[tag=justspawn] at @s run data modify entity @s view_range set value 0.70f

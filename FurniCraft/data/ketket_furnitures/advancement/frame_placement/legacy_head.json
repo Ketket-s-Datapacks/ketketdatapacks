@@ -1,0 +1,23 @@
+{
+  "criteria": {
+    "use": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "location": {
+          "type": "minecraft:any_of",
+          "terms": [
+            { "type": "minecraft:match_tool", "predicate": {
+              "items": "minecraft:player_head",
+              "predicates": { "minecraft:custom_data": "{furniture:1b}" }
+            }},
+            { "type": "minecraft:match_tool", "predicate": {
+              "items": "minecraft:player_head",
+              "predicates": { "minecraft:custom_data": "{furniture:1,carpenterbench:1}" }
+            }}
+          ]
+        }
+      }
+    }
+  },
+  "rewards": { "function": "ketket_furnitures:legacy/use_head" }
+}

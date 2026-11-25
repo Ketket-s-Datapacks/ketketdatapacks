@@ -1,7 +1,6 @@
-execute positioned ~ ~1 ~ if entity @e[type=item_display,tag=main,tag=poleblock,distance=..0.5] run summon minecraft:item_display ~ ~0.5 ~ {transformation:[0.400f, 0.000f, 0.000f,0.000f,0.000f, 0.150f, 0.000f,-0.895f,0.000f, 0.000f, 0.400f,0.000f,0.000f, 0.000f, 0.000f,1.000f],Tags:["baseplate","poleblock","furniture"],item:{id:"minecraft:player_head",count:1,components:{profile:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NTRkZGE4MGVhNjRiMThiYzM3NWI4MWNlMWVkMTkwN2ZjODFhZWE2YjFjZjNjNGY3YWQzMTQ0Mzg5ZjY0YyJ9fX0="}]}},interpolation_duration:0,start_interpolation:0}}
-execute positioned ~ ~1 ~ if entity @e[type=item_display,tag=lamp1,tag=head,distance=..0.5] run summon minecraft:item_display ~ ~0.5 ~ {transformation:[0.400f, 0.000f, 0.000f,0.000f,0.000f, 0.150f, 0.000f,-0.895f,0.000f, 0.000f, 0.400f,0.000f,0.000f, 0.000f, 0.000f,1.000f],Tags:["baseplate","poleblock","furniture"],item:{id:"minecraft:player_head",count:1,components:{profile:{properties:[{name:"textures",value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjI1NTRkZGE4MGVhNjRiMThiYzM3NWI4MWNlMWVkMTkwN2ZjODFhZWE2YjFjZjNjNGY3YWQzMTQ0Mzg5ZjY0YyJ9fX0="}]}},interpolation_duration:0,start_interpolation:0}}
 
-kill @e[type=item,nbt={Item:{id:"minecraft:iron_chain",count:1}},distance=..1]
-execute as @s[tag=dropitem] run loot spawn ~ ~ ~ loot ketket_furnitures:lamps/pole1
-kill @e[type=item_display,tag=baseplate,tag=!main,distance=..0.5]
-kill @e[tag=poleblock,type=item_display,distance=..0.5]
+# Remove this pole's mount, then update the remaining lamp or pole above it.
+execute positioned ~ ~1 ~ run kill @e[type=minecraft:item_display,tag=baseplate,tag=poleblock,tag=!main,distance=..0.15]
+execute positioned ~ ~1 ~ run function ketket_furnitures:lamps/refresh_mount
+execute align xyz as @e[type=minecraft:item,dx=0,dy=0,dz=0,nbt={Item:{id:"minecraft:iron_chain",count:1}}] unless data entity @s Thrower run kill @s
+execute as @s[tag=dropitem] run loot spawn ~ ~0.53 ~ loot ketket_furnitures:lamps/pole1

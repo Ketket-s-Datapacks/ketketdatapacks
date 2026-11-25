@@ -13,6 +13,14 @@
     },
     {
       "components": {
+        "minecraft:item_model": "minecraft:player_head",
+        "minecraft:entity_data": {
+          "id": "minecraft:item_frame",
+          "Tags": [
+            "fc.frame_pending",
+            "fc.frame_carpenterbench"
+          ]
+        },
         "minecraft:profile": {
           "id": [
             1108158851,

@@ -12,6 +12,6 @@ execute as @s[tag=west] at @s run summon minecraft:interaction ~ ~0.3 ~ {Tags:["
 
 summon minecraft:block_display ~ ~0.63 ~ {Tags:["justspawn","sitable","chair","chair5"],block_state:{id:"minecraft:air"},interpolation_duration:0,start_interpolation:0,transformation:[0.300f, 0.000f, 0.000f,-0.150f,0.000f, 0.300f, 0.000f,-1.600f,0.000f, 0.000f, 0.300f,-0.150f,0.000f, 0.000f, 0.000f,1.000f],view_range:0.15f,shadow_radius:0f,shadow_strength:0f}
 
-execute as @e[tag=justspawn,tag=chair5,type=interaction] at @s run function ketket_furnitures:place/chairs/chair5/connect
+execute as @e[tag=justspawn,tag=!fc.frame_existing,tag=chair5,type=interaction] at @s run function ketket_furnitures:place/chairs/chair5/connect
 function ketket_furnitures:place/settype/findtype
 setblock ~ ~ ~ minecraft:air

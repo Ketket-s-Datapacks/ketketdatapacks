@@ -7,7 +7,8 @@ scoreboard objectives remove mailstoragecounter
 scoreboard objectives remove fc.switcher 
 scoreboard objectives remove fc.bench_triggered 
 
-scoreboard objectives remove furniture.isPlaced 
+scoreboard objectives remove fc.convert
+scoreboard objectives remove fc.frame_place
 
 scoreboard objectives remove getcatalog 
 

@@ -1,7 +1,9 @@
 tag @s add mustdie
-execute on attacker run execute as @s[gamemode=!creative] run tag @e[type=interaction,sort=nearest,nbt={attack:{}}] add dropitem
+scoreboard players set #survival_attack fc.frame_place 0
+execute store success score #survival_attack fc.frame_place run execute on attacker if entity @s[gamemode=!creative]
+execute if score #survival_attack fc.frame_place matches 1 run tag @s add dropitem
 execute as @s[tag=blockchecker,tag=!table] if entity @e[type=player,sort=nearest,gamemode=!creative] run tag @s add dropitem
-execute as @s[tag=chair] run kill @e[tag=sitable,sort=nearest,limit=1]
+execute as @s[tag=chair] run kill @e[tag=sitable,distance=..1,sort=nearest,limit=1]
 
 execute as @s[tag=chair] run particle block{block_state:"minecraft:oak_planks"} ~ ~0.2 ~ 0 0 0 1 25
 execute as @s[tag=chair1] positioned ~ ~0.5 ~ run function ketket_furnitures:remover/chairs/chair1
@@ -28,8 +30,8 @@ execute as @s[tag=cabinet3,tag=!break] positioned ~ ~ ~ run function ketket_furn
 
 execute as @s[tag=lamp1] run particle block{block_state:"minecraft:iron_bars"} ~ ~0.2 ~ 0 0 0 1 40 force
 execute as @s[tag=lamp2] run particle block{block_state:"minecraft:iron_chain"} ~ ~0.2 ~ 0 0 0 1 40 force
-execute as @s[tag=poleblock] positioned ~ ~-0.5 ~ run function ketket_furnitures:remover/lamps/lamp1/pole1
-execute as @s[tag=lamp1] positioned ~ ~1 ~ run function ketket_furnitures:remover/lamps/lamp1/lamp1
+execute as @s[tag=poleblock,tag=main] at @s align xyz positioned ~0.5 ~-1 ~0.5 run function ketket_furnitures:remover/lamps/lamp1/pole1
+execute as @s[tag=lamp1] at @s run function ketket_furnitures:remover/lamps/lamp1/lamp1
 execute as @s[tag=lamp2] positioned ~ ~1 ~ run function ketket_furnitures:remover/lamps/lamp2
 
 execute as @s[tag=curtain1] positioned ~ ~0.27 ~ run function ketket_furnitures:remover/curtain/curtain1

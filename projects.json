@@ -18,7 +18,8 @@
       "source_folder": "Better Hanging Signs",
       "target_repository": "datapack-better-hanging-signs",
       "namespace": "ketket_signs",
-      "modrinth_slug": "ketkets-better-hanging-signs"
+      "modrinth_slug": "ketkets-better-hanging-signs",
+      "curseforge_project_id": 1413781
     },
     {
       "name": "Custom NPC",
@@ -46,7 +47,8 @@
       "source_folder": "FurniCraft",
       "target_repository": "datapack-furnicraft",
       "namespace": "ketket_furnitures",
-      "modrinth_slug": "ketkets-furnicraft"
+      "modrinth_slug": "ketkets-furnicraft",
+      "curseforge_project_id": 1290161
     },
     {
       "name": "Graves",
@@ -60,14 +62,16 @@
       "source_folder": "Player Shops",
       "target_repository": "datapack-player-shops",
       "namespace": "ketket_shops",
-      "modrinth_slug": "ketkets-player-shops"
+      "modrinth_slug": "ketkets-player-shops",
+      "curseforge_project_id": 1294176
     },
     {
       "name": "Quick Shulker Boxes",
       "source_folder": "Quick Shulker Boxes",
       "target_repository": "datapack-quick-shulker-boxes",
       "namespace": "ketket_shulkers",
-      "modrinth_slug": "ketkets-quick-shulker-boxes"
+      "modrinth_slug": "ketkets-quick-shulker-boxes",
+      "curseforge_project_id": 1315785
     },
     {
       "name": "SilkFortune Switch",

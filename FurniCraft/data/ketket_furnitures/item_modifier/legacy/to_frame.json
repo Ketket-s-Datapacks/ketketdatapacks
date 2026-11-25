@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:sequence",
+  "functions": [
+    { "type": "minecraft:set_item", "item": "minecraft:item_frame" },
+    { "type": "minecraft:set_components", "components": {
+      "minecraft:item_model": "minecraft:player_head",
+      "minecraft:entity_data": { "id": "minecraft:item_frame", "Tags": ["fc.frame_pending"] }
+    }}
+  ]
+}

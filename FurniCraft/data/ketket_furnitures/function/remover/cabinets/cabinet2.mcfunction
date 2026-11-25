@@ -1,19 +1,20 @@
 tag @s add break
 setblock ~ ~-1 ~ minecraft:air destroy
-kill @e[type=item,nbt={Item:{id:"minecraft:chest",count:1}},sort=nearest,limit=1] 
+execute positioned ~ ~-1 ~ align xyz run kill @e[type=minecraft:item,dx=0,dy=0,dz=0,nbt={Item:{id:"minecraft:chest",components:{"minecraft:custom_name":"Cabinet"}}},limit=1]
 execute as @s[tag=dropitem,tag=acacia] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/acacia
 execute as @s[tag=dropitem,tag=bamboo] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/bamboo
 execute as @s[tag=dropitem,tag=birch] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/birch
 execute as @s[tag=dropitem,tag=poplar] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/poplar
 execute as @s[tag=dropitem,tag=cherry] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/cherry
 execute as @s[tag=dropitem,tag=crimson] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/crimson
-execute as @s[tag=dropitem,tag=dark_oak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/darkoak
+execute as @s[tag=dropitem,tag=dark_oak,tag=!darkoak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/darkoak
 execute as @s[tag=dropitem,tag=darkoak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/darkoak
 execute as @s[tag=dropitem,tag=jungle] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/jungle
 execute as @s[tag=dropitem,tag=mangrove] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/mangrove
 execute as @s[tag=dropitem,tag=oak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/oak
 execute as @s[tag=dropitem,tag=spruce] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/spruce
 execute as @s[tag=dropitem,tag=warped] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/warped
+execute as @s[tag=dropitem,tag=pale] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:cabinets/cabinet2/pale
 playsound minecraft:block.wood.break ambient @a[distance=..10] ~ ~ ~ 3 0
 #particle minecraft:block minecraft:chest ~ ~ ~ .125 .125 .125 0 40
 kill @e[distance=..0.1,tag=cabinet2,type=block_display]

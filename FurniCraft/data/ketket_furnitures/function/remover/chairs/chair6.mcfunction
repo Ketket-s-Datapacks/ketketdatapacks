@@ -10,6 +10,7 @@ execute as @s[tag=dropitem,tag=!wooled,tag=mangrove] at @s run loot spawn ~ ~ ~ 
 execute as @s[tag=dropitem,tag=!wooled,tag=oak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/oak
 execute as @s[tag=dropitem,tag=!wooled,tag=spruce] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/spruce
 execute as @s[tag=dropitem,tag=!wooled,tag=warped] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/warped
+execute as @s[tag=dropitem,tag=!wooled,tag=pale] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/pale
 
 execute as @s[tag=dropitem,tag=wooled,tag=acacia] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/acacia
 execute as @s[tag=dropitem,tag=wooled,tag=bamboo] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/bamboo
@@ -23,6 +24,7 @@ execute as @s[tag=dropitem,tag=wooled,tag=mangrove] at @s run loot spawn ~ ~ ~ l
 execute as @s[tag=dropitem,tag=wooled,tag=oak] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/oak
 execute as @s[tag=dropitem,tag=wooled,tag=spruce] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/spruce
 execute as @s[tag=dropitem,tag=wooled,tag=warped] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/warped
+execute as @s[tag=dropitem,tag=wooled,tag=pale] at @s run loot spawn ~ ~ ~ loot ketket_furnitures:chairs/chair6/wooled/pale
 
 playsound minecraft:block.wood.break ambient @a[distance=..10] ~ ~ ~ 3 0
 #particle minecraft:block minecraft:chest ~ ~ ~ .125 .125 .125 0 40

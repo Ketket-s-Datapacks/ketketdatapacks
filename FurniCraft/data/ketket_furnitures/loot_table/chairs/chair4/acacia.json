@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "item",
-          "name": "minecraft:player_head",
+          "name": "minecraft:item_frame",
           "modifier": "ketket_furnitures:chairs/chair4/acacia"
         }
       ]
