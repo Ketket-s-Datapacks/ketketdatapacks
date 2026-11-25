@@ -89,6 +89,13 @@
       "target_repository": "datapack-totem-refill",
       "namespace": "ketket_undyingrefill",
       "modrinth_slug": "ketkets-totem-refill"
+    },
+    {
+      "name": "Wolf Backpack",
+      "source_folder": "Wolf Pack",
+      "target_repository": "datapack-wolf-backpack",
+      "namespace": "wolf_pack",
+      "modrinth_slug": "wolf-backpack"
     }
   ]
 }

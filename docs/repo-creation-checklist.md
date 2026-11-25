@@ -2,7 +2,7 @@
 
 Use this checklist when creating a new datapack repository under the organization.
 
-Scope for GitHub migration: only 12 finished datapacks.
+Scope for GitHub migration: finished datapacks listed in `projects.json`.
 
 ## Organization Setup
 

@@ -14,7 +14,7 @@ This repo is not meant to be the main release home for every datapack anymore. I
 
 ## Finished Datapacks
 
-Only the 12 finished datapacks are part of the GitHub release structure.
+These finished datapacks are part of the GitHub release structure.
 
 | Datapack | Source folder | GitHub repository | Modrinth |
 |---|---|---|---|
@@ -30,6 +30,7 @@ Only the 12 finished datapacks are part of the GitHub release structure.
 | SilkFortune Switch | `SilkFortune Switch` | [datapack-silk-fortune-switch](https://github.com/Ketket-s-Datapacks/datapack-silk-fortune-switch) | [ketkets-silk-fortune-switch](https://modrinth.com/datapack/ketkets-silk-fortune-switch) |
 | Stackraft | `Stackraft` | [datapack-stackraft](https://github.com/Ketket-s-Datapacks/datapack-stackraft) | [ketkets-stackraft](https://modrinth.com/datapack/ketkets-stackraft) |
 | TotemRefill | `TotemRefill` | [datapack-totem-refill](https://github.com/Ketket-s-Datapacks/datapack-totem-refill) | [ketkets-totem-refill](https://modrinth.com/datapack/ketkets-totem-refill) |
+| Wolf Backpack | `Wolf Pack` | [datapack-wolf-backpack](https://github.com/Ketket-s-Datapacks/datapack-wolf-backpack) | [wolf-backpack](https://modrinth.com/project/wolf-backpack) |
 
 ## Out Of Scope Right Now
 
